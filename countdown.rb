@@ -11,4 +11,6 @@ end
 countdown_with_sleep(seconds)
   while seconds > 0
   puts "#{seconds} SECOND(S)"
+  sleep(1)
+  
 end
